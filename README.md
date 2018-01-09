@@ -11,3 +11,6 @@ In order to debug a scala macro with break points one must
   libraryDependencies += "org.scala-lang" % "scala-reflect" % scalaVersion.value,
   libraryDependencies += "org.scala-lang" % "scala-compiler" % scalaVersion.value
 ```
+For more details regarding macro debugging: 
+1. [Cake Solutions debugging Scala Macros](https://www.cakesolutions.net/teamblogs/2013/09/30/debugging-scala-macros)3
+2. [Debugging Scala Macros from the Scala Website](https://docs.scala-lang.org/overviews/macros/overview.html#debugging-macros)
