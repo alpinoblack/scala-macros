@@ -7,9 +7,23 @@ import org.alpinoblack.macros.DebugMacros
   */
 object MacroApp extends App{
 
-  println("aa")
-  //DebugMacros.printParam("bbb")
-  val m = 1
-  DebugMacros.debug(1 + m)
+  val m = {
+    val b = 1
+    val a = 2
+    a + b
+  }
+  DebugMacros.debug(m)
+
+  class A {
+    def a: Int = 42
+    def b: String = "b"
+  }
+
+  class B {
+    def beta: String = "beta"
+  }
+
+  println(DebugMacros.methodNames[A])
+  println(DebugMacros.methodNames[B])
 
 }

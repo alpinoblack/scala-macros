@@ -14,3 +14,5 @@ In order to debug a scala macro with break points one must
 For more details regarding macro debugging: 
 1. [Cake Solutions debugging Scala Macros](https://www.cakesolutions.net/teamblogs/2013/09/30/debugging-scala-macros)
 2. [Debugging Scala Macros from the Scala Website](https://docs.scala-lang.org/overviews/macros/overview.html#debugging-macros)
+
+##For a Maven version see: [Maven Scala Macros Example](https://github.com/scalamacros/maven-example)
